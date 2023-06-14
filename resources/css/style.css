@@ -1,38 +1,6 @@
 .links {
     flex-grow: .1;}
- @media only screen and (max-width: 922px) {
-        .navbar {
-            display: none;
-        }
-        .moble {
-            display: flex;
-        }
-        h3 {
-            font-size: 1.8rem;
-        }
-        body {
-            width: 100%;
-        }
-        h2 {
-            font-size: 2.3rem;
-        }
-        h1 {
-            font-size: 2.9rem;
-        }
-        p {
-            font-size: 1rem;
-        }
-        ul, ol {
-            font-size: 1rem;
-        }
-        a {
-            font-size: .96rem;
-        }
-        .image-container {
-            width: 100%;
-            height: auto;
-        }
-    }
+ 
     .navbar {
         overflow: hidden;
         background-color: rgb(240, 219, 222);
@@ -122,7 +90,7 @@
     .slime {
         text-align: justify;
         width: 510px;
-        border: rgb(247, 216, 226) 90px outset;
+        border: rgb(247, 216, 226) 9vw outset;
         background-color: rgb(247, 216, 226);
         color: #000000;
         text-align: center;
@@ -138,4 +106,47 @@
     .slime a {
         border: none;
     background: none;
+    }
+
+    @media only screen and (max-width: 922px) {
+        .navbar {
+            display: none;
+        }
+        .moble {
+            display: flex;
+        }
+        h3 {
+            font-size: 1.8rem;
+        }
+        body {
+            width: 100%;
+        }
+        h2 {
+            font-size: 2.3rem;
+        }
+        h1 {
+            font-size: 2.9rem;
+            text-align: center;
+        }
+        p {
+            font-size: 1rem;
+        }
+        ul, ol {
+            font-size: 1rem;
+        }
+        a {
+            font-size: 2rem;
+        }
+        .image-container {
+            width: 100%;
+            height: auto;
+        }
+        .slime {
+            border: none;
+            display: flex;
+            width: 90%;
+        }
+        img {
+            width: 0;
+        }
     }
