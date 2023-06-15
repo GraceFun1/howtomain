@@ -33,7 +33,7 @@
     }
     a {
         background-color: rgb(240, 207, 213);
-        color: #fff;
+        color: #000000;
         text-decoration: none;
         padding: 20px;
         font-family: 'Dancing Script', cursive;
@@ -90,7 +90,7 @@
     .slime {
         text-align: justify;
         width: 510px;
-        border: rgb(247, 216, 226) 9vw outset;
+        border: rgb(247, 216, 226) 90px outset;
         background-color: rgb(247, 216, 226);
         color: #000000;
         text-align: center;
